@@ -1,15 +1,20 @@
 body {
-
+    background-image: url("../images/dark-triangles.png");
 }
 header {
     background: orange;
     color: white;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 #game-rules {
     background: pink;
     color: green;
     font-weight: bold;
+   padding: 15px;
+   margin-bottom: 10px;
 }
+
 .randomNum{
     background: rgb(167, 221, 221);
     height:100px;
@@ -28,7 +33,7 @@ header {
     margin-bottom: 10px;
 }
 .crystal-image {
-    width:150px;
+    width:120px;
     height:100px;
     border: 1px solid rgb(190, 186, 186);
     margin:2px;
@@ -36,4 +41,14 @@ header {
 .panel-default {
     background: rgb(163, 224, 224);
     margin-top: 10px;
+}
+.panel-title {
+    font-weight: bold;
+}
+#score-counter {
+    font-weight: bold;
+    font-size: 18px;
+}
+#result-message {
+    color: darkblue;
 }
