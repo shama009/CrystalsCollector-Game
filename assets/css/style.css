@@ -27,6 +27,12 @@ header {
     padding: 10px;
     margin-bottom: 10px;
 }
+.crystal-image {
+    width:150px;
+    height:100px;
+    border: 1px solid rgb(190, 186, 186);
+    margin:2px;
+}
 .panel-default {
     background: rgb(163, 224, 224);
     margin-top: 10px;
