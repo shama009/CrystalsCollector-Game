@@ -47,7 +47,7 @@ $(document).ready(function () {
             // Generate random value for each crystal
             crystalRandomNumber = generateRandomNum(1, 12);
             imageCrystal.attr("data-crystalvalue", crystalRandomNumber);
-            console.log(crystalRandomNumber);
+            
 
             // Lastly, each crystal image (with all it classes and attributes) will get added to the page.
             $("#crystals").append(imageCrystal);
